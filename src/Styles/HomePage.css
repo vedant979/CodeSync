@@ -1,0 +1,26 @@
+.flex-container{
+    margin-top: 84px;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+}
+.editor-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height:460px;
+}
+@media (width<=600px){
+    /* .main-container{
+        display: none;
+    } */
+}
+.main-container{
+    height: 100vh;
+}
+.phone-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,16 @@
+.leftNav-container{
+    display: flex;
+    flex: 60%;
+}
+.header{
+    font-size: 30px;
+    font-family: monospace;
+}
+.btn-btn-save{
+    background-color: #444857 !important;
+}
+@media (width<=600px){
+    .header{
+        font-size: 25px;
+    }
+}
